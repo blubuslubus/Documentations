@@ -1,4 +1,4 @@
-This is a collection of all my write-ups and documentations of various CTFs, challenges, rooms on THM or HTB etc.
+This is a collection of all my write-ups and documentations of various CTFs, challenges, rooms on THM or HTB etc. expressly for documenting my learnings and growth in the skills required for the field of CyberSecurity.
 
 I have ensured that no answer/flag is readily available in the texts.
 
