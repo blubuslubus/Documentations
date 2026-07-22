@@ -2,7 +2,8 @@
 Goal: Complete the room.
 
   Q: Which VPN service was used to send the anonymous email from the .eml file?
-  A: Analyzing exhibit_a.eml, we find the sender's IP to be `193.32.249.132`, and looking this up on WHOIS, we find which company this IP belongs to. Researching about this company, we find they also provide VPN services to another VPN company, this VPN company is the answer.
+  
+    - A: Analyzing exhibit_a.eml, we find the sender's IP to be `193.32.249.132`, and looking this up on WHOIS, we find which company this IP belongs to. Researching about this company, we find they also provide VPN services to another VPN company, this VPN company is the answer.
 
   Q: What is the full street address of the petrol station where the missing vehicle was last seen?
   A: The picture `exhibit_b.png` can give vital information about the name of the gas station. A location mentioned in the memo can give a hint as to the location where the target gas station is asked of us to find.
