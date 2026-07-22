@@ -1,6 +1,8 @@
 
 Goal: Complete the room.
 
+Link: https://tryhackme.com/room/haveabreak
+
   Q: Which VPN service was used to send the anonymous email from the .eml file?
   
   A: Analyzing exhibit_a.eml, we find the sender's IP to be `193.32.249.132`, and looking this up on WHOIS, we find which company this IP belongs to. Researching about this company, we find they also provide VPN services to another VPN company, this VPN company is the answer.
