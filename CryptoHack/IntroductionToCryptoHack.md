@@ -13,5 +13,10 @@ ASCII:
   - Depending on personal preferences, we can either convert every value individually and piece them together to decrypt the flag, or simply create a short and simple script in python (as recommended) or any other language one is comfortable in to compute and spew out the flag.
   - In python, the ```chr()``` function can be used to compute the ASCII counterpart of an ordinate value given, and `ord()` for vice versa.
 
+Hex:
+  - We are given a ciphertext encrypted in Hex, and need to simply convert it from Hex to printable ASCII form.
+  - The course recommends us to once again use python for the computing. We are suggested to use `bytes.fromhex()` function to obtain bytes, and also that hex() can be operated on on the string to get its hex representation. I would recommend to use `decode()` alongside.
+  - Aside from python, I would very strongly suggest learning and using CyberChef instead, often known as the Swiss-Army-Knife for cyber.
+
 
    
