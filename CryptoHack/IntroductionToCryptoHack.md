@@ -23,5 +23,10 @@ Base64:
   - Another method that I opted to use is once again CyberChef, and the recipe is simply `From Hex` `To Base64` set to Alphabet.
   - Do note that the flag you obtain may look a little different to the other flags, but worry not. I believe this is done deliberately to portray how Base64 is web-safe.
 
+Bytes and Big Integers:
+  - We are given a Big Integer, which can be a little annoying to work with sometimes. For this, I suggest using Python too and not CyberChef.
+  - Install PyCryptodome, with is a package useful for hashing, RSA, and many other cryptographic aims.
+  - Convert the bytes of the given BigInt using `long_to_bytes()` and decode it as usual to obtain the flag.
+
 
    
