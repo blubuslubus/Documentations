@@ -18,5 +18,10 @@ Hex:
   - The course recommends us to once again use python for the computing. We are suggested to use `bytes.fromhex()` function to obtain bytes, and also that hex() can be operated on on the string to get its hex representation. I would recommend to use `decode()` alongside.
   - Aside from python, I would very strongly suggest learning and using CyberChef instead, often known as the Swiss-Army-Knife for cyber.
 
+Base64:
+  - We are given a hex string, and suggested to first decode it into bytes, then pass it through `base64.b64encode()` of the base64 module in python. Doing so works perfectly fine.
+  - Another method that I opted to use is once again CyberChef, and the recipe is simply `From Hex` `To Base64` set to Alphabet.
+  - Do note that the flag you obtain may look a little different to the other flags, but worry not. I believe this is done deliberately to portray how Base64 is web-safe.
+
 
    
