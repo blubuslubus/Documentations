@@ -28,5 +28,9 @@ Bytes and Big Integers:
   - Install PyCryptodome, with is a package useful for hashing, RSA, and many other cryptographic aims.
   - Convert the bytes of the given BigInt using `long_to_bytes()` and decode it as usual to obtain the flag.
 
+XOR Starter:
+  - I have discussed the XOR Cipher here already, but as a refresher, every bit of the plaintext and key are compared and an XOR operation is performed (if both inputs are same, output is 0, if both inputs are different, output is 1).
+  - Once again I recommend using CyberChef as it is much more efficient, but there is no harm in practicing in python either.
+  - Do note, in CyberChef select Decimal type when inputing the key.
 
    
