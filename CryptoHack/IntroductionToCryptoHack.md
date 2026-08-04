@@ -38,6 +38,8 @@ XOR Properties:
   - The simplest way to understand how we can undo the encryption on the flag is by simply performing XOR on it against all 3 keys. And we can find all 3 keys by performing XOR on Key1 and Key2^Key1 to find Key2, and once again with Key2 and Key2^Key3 to find Key3.
   - I recommend using python scripting for this as it is a good exercise for both working with logically and understanding a clearer picture of python scripting.
 
-
+Favourite Byte:
+  - This one is a glimpse of brute-forcing the key. Since the encryption uses a single-byte key, we can simply brute-force our way by performing XOR with all 255 bytes, which is rather quick in python if you would like to try, and similarly easy on CyberChef.
+  - Alternatively, you can use the known plaintext (`crypto{`) to find the key too. Easiest way to go about this is to XOR the first byte of ciphertext with the hex of the first letter of plaintext which is 'c'.
 
    
