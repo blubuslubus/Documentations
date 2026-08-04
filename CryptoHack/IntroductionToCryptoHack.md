@@ -33,4 +33,11 @@ XOR Starter:
   - Once again I recommend using CyberChef as it is much more efficient, but there is no harm in practicing in python either.
   - Do note, in CyberChef select Decimal type when inputing the key.
 
+XOR Properties:
+  - The Commutative, Associative, Identity and Self-Inverse properties of XOR are discussed here. We are given Key1, XOR of Key1 and Key2, XOR of Key2 and Key3, and all 3 keys XOR'ed with the flag.
+  - The simplest way to understand how we can undo the encryption on the flag is by simply performing XOR on it against all 3 keys. And we can find all 3 keys by performing XOR on Key1 and Key2^Key1 to find Key2, and once again with Key2 and Key2^Key3 to find Key3.
+  - I recommend using python scripting for this as it is a good exercise for both working with logically and understanding a clearer picture of pythong scripting.
+
+
+
    
