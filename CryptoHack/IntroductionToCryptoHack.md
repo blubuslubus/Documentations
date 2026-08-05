@@ -47,4 +47,8 @@ You either know, XOR you don't:
   - By performing XOR operation on the given ciphertext hex and the first 6 bytes of the plaintext, we can find a partial key, and then deduce the full key (Hint: Key is 7 characters long).
   - I solved this using both the tools as per my convenience. I used python to find the partial key itself, then CyberChef to decrypt the ciphertext with the repeating key.
 
+
+
+You have reached the end of this document. This concludes the Introduction to Cryptography course module at CryptoHack. I enjoyed going through these, and learned a little about practical experience with XOR cipher too, eventhough I had theoretical preliminary knowledge about it.
+
    
