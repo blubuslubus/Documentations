@@ -42,4 +42,9 @@ Favourite Byte:
   - This one is a glimpse of brute-forcing the key. Since the encryption uses a single-byte key, we can simply brute-force our way by performing XOR with all 255 bytes, which is rather quick in python if you would like to try, and similarly easy on CyberChef.
   - Alternatively, you can use the known plaintext (`crypto{`) to find the key too. Easiest way to go about this is to XOR the first byte of ciphertext with the hex of the first letter of plaintext which is 'c'.
 
+You either know, XOR you don't:
+  - This one is an example of a repeating-byte key. This strategy works easily i nCTFs since we have a bit of the known plaintext of the flag in the form of the flag format (```cryto{```).
+  - By performing XOR operation on the given ciphertext hex and the first 6 bytes of the plaintext, we can find a partial key, and then deduce the full key (Hint: Key is 7 characters long).
+  - I solved this using both the tools as per my convenience. I used python to find the partial key itself, then CyberChef to decrypt the ciphertext with the repeating key.
+
    
