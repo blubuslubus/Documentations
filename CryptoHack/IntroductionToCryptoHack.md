@@ -1,4 +1,4 @@
-Link: [https://cryptohack.org/courses/intro/fflags/]
+Link: [https://cryptohack.org/courses/intro/course_details/]
 
 ## Finding Flags:
   - This is a tutorial, the flag is provided and we are taught the format and how to submit it.
