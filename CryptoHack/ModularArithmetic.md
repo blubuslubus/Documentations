@@ -23,3 +23,8 @@ Link: [https://cryptohack.org/courses/modular/course_details/]
 ## Modular Inverting:
   - Personally, this is where I started to get a good feel of mod notation and working with it in my head. This is my first exposure to it.
   - I didn't compute the answer as I was probably expected to, using the theorem, I simply figured subsituting 'd' with 9 yields the right answer. Oh well.
+
+## Quadratic Residue:
+  - A healthy bit of explanation must be understood first. Quadratic residues are when an integer (x) exists, of which module with a prime number (mod p) is congruent to the square of another integer (a). `a^2 ≡ x mod p`. If it does not exist for the square, then the integer is simply a Non-Quadratic Residue.
+  - Out of the three integers provided [14, 6, 11], we first find their modulo with the given prime `p = 29`. by each integer raised to 14 (since 14 is [29-1]/2, Euler's criterion.) In doing so, we find that the results with 14 and 11 are -1 which indicates they are Non-Quadratic Residue, while the result with 6 is 1 indicating that it is a Quadratic Residue.
+  - Now as we solve for `x^2 ≡ 6 mod 29` (x can vary from 1 to 29), we find that the first value for x is 8, so the other value that comes in the pair must be 29-8 which is 21, so our solutions are 8 and 21.
