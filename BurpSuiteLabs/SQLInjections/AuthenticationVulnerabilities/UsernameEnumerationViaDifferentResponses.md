@@ -9,6 +9,13 @@ Procedure:
   - Sure enough, once we find the correct username, we repeat the process with the correct username and a random password, and try to find the unique response that stands out, either by the length of the response or the status code.
   - In this way, we can narrow down the username and its password to gain authentication through username enumeration.
 
+Status: Solved
+
+<img width="1091" height="201" alt="image" src="https://github.com/user-attachments/assets/94f5da0c-65e8-4c9a-a813-e4321331e5df" />
+
+
+
+
 
 
 
