@@ -1,3 +1,2 @@
-
-  ##Lab: Username enumeration via different responses
+## Lab: Username enumeration via different responses
 
