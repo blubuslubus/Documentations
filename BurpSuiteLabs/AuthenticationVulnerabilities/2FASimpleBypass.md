@@ -9,3 +9,6 @@ Procedure:
   - Simply adding `/my account` at the end of the url's `.net` will allow us full access of this compromised account.
 
 Status: Complete
+
+<img width="487" height="196" alt="image" src="https://github.com/user-attachments/assets/0267b752-fc51-4b84-97b4-7bff280dbe96" />
+
