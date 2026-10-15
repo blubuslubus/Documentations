@@ -31,6 +31,17 @@ https://tryhackme.com/room/hh-theconciergeknows-2d7eb4d9?utm_campaign=social_sha
 
 Link: https://tryhackme.com/room/hh-room404-804573bf
 
+  - The website (given ip hosted on port 8080) seems to barely function. No button works, and the websites source code is a dead end too. So I opted to enumerate through common directories with gobuster. Found ```.git```.
+  - I opted to donwload the git onto my machine and restore the working tree. A Readme.md is among some of the files recovered, reading which gives us the flag.
+
+Status: Completed
+
+https://tryhackme.com/room/hh-room404-804573bf?utm_campaign=social_share&utm_medium=social&utm_content=share-completed-room&utm_source=copy&sharerId=686698db83d9427d09bd767b
+
+## Day 3 - Complimentary
+
+Link: https://tryhackme.com/room/hh-room404-804573bf?utm_campaign=social_share&utm_medium=social&utm_content=share-completed-room&utm_source=copy&sharerId=686698db83d9427d09bd767b
+
   - 
 
 
