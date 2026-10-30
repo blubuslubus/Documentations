@@ -4,6 +4,6 @@
 
 
 ## Procedure:
-   - This room is currently stillunder maintanence, will come back later if I remember to.
+   - This room is currently still under maintanence, will come back later if I remember to.
 
 
